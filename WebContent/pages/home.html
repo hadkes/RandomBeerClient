@@ -1,0 +1,54 @@
+<script type="text/javascript" src="./js/showBeer.js"></script>
+<html>
+	<head>
+		<style>
+			#center_heading {
+				max-width: 500px;
+				margin: auto;
+				left: 1%;
+				right: 1%;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>		
+		<div id="center_heading">
+			<h1>Welcome to Random Beer App</h1>
+			
+			<div class="group" >
+				<input type="submit" class="button" onclick="show();" value="Show Another Beer">
+			</div>
+			
+			<div id="beerDataDisplay">
+				<table id="displayTable" class="docutils">
+					<tr>
+						<td id="beerNameLabel" nowrap="nowrap"></td>
+						<td id="beerNameValue"></td>
+					</tr>
+					<tr>
+						<td id="beerDescLabel" nowrap="nowrap"></td>
+						<td id="beerDescValue"></td>
+					</tr>
+					<tr>
+						<td id="beerCostLabel" nowrap="nowrap"></td>
+						<td id="beerCostValue"></td>
+					</tr>
+					<tr>
+						<td id="beerAlcoholPercentageLabel" nowrap="nowrap"></td>
+						<td id="beerAlcoholPercentageValue"></td>
+					</tr>
+					
+					<tr>
+						<td id="providerNameLabel" nowrap="nowrap"></td>
+						<td id="providerNameValue"></td>
+					</tr>
+					<tr>
+						<td id="providerAddressLabel" nowrap="nowrap"></td>
+						<td id="providerAddressValue"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+	</body>
+<html>
